@@ -1,4 +1,4 @@
-/*{
+{
 	
 	margin: 0;	
 	box-sizing: border-box;
@@ -8,9 +8,9 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	background: #f0eaea url('imagenes/fondo.png');
 	background-size: cover;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 }
-/*
+
 .contenedor {
 	margin: auto;
 	width: 90%;
@@ -70,9 +70,9 @@ header .menu a:hover {text-decoration: underline;}
 }
 
 aside {
-	width: 30%;
+	width: 35%;
 	background:#22181c;
-	padding: 20px;
+	padding: 40px;
 	display: flex;
 	flex-direction:column;
 	flex-wrap:wrap;
@@ -82,9 +82,9 @@ aside {
 aside .combo {
 	font-size: 30px;
 	text-align: center;
-	color: #f6e8ea;
-	padding: 50px 0;
-	margin: 20px 0;
+	color: #ffffff;
+	padding: 70px 0;
+	margin: 40px 0;
 	background: #5a0001;
 }
 
@@ -98,10 +98,10 @@ footer {
 	color: #fff;
 	display: flex;
 	flex-direction:row;
-	/*flex-wrap:no-wrap;*/
+	flex-wrap:no-wrap;
 	justify-content:space-between;
 }
-/*
+
 footer .Redes-Sociales a {
 	color: #fff;
 	text-decoration: underline;
@@ -186,6 +186,7 @@ footer .Redes-Sociales a:hover {
 	footer .Redes-Sociales {
 		order:1;
 		margin-bottom: 20px;
+		
 	}
 
 }
