@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function calcularFactorial() {
+const numero = parseInt(prompt("Ingresa un número:"));
+
+// Verificar si el número es válido
+if (isNaN(numero)) {
+return "Número inválido. Por favor, ingresa un número válido.";
+}
+
+// Verificar si el número es 0 o 1
+if (numero === 0 || numero === 1) {
+return 1;
+}
+
+// Inicializar el resultado como 1
+let resultado = 1;
+
+// Calcular el factorial
+for (let i = 2; i <= numero; i++) {
+resultado *= i;
+}
+
+return resultado;
+}
+
+// Llamar a la función y mostrar el resultado
+const factorial = calcularFactorial();
+alert(`El factorial es: ${factorial}`);
+    </script>
+</body>
+</html>
